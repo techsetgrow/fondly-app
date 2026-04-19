@@ -1,3 +1,5 @@
+![Fondly — Photo & Video Organizer](fondly_banner.png)
+
 # Fondly — Photo & Video Organizer
 
 **Stop dreading that hard drive full of 20 years of memories.**
