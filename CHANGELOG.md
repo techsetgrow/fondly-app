@@ -4,6 +4,13 @@ All notable changes to Fondly are documented here.
 
 ---
 
+## [v1.0.3] - 2026-04-19
+
+### Changed
+- Transferred to TechSetGrow — all links, publisher name, and Buy Me a Coffee updated
+
+---
+
 ## [v1.0.2] - 2026-04-18
 
 ### Fixed

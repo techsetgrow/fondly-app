@@ -6,14 +6,14 @@
 
 Fondly automatically sorts your photos and videos into clean event folders, finds and removes duplicates, keeps the sharpest shot from every burst, and can even name folders after the place where the photos were taken — all without touching your originals.
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-yellow)](https://buymeacoffee.com/sethvishalz)
-[![Download](https://img.shields.io/github/v/release/chiclets1979/fondly-app?label=Download&color=7c6af7)](https://github.com/chiclets1979/fondly-app/releases/latest)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-yellow)](https://buymeacoffee.com/techsetgrow)
+[![Download](https://img.shields.io/github/v/release/techsetgrow/fondly-app?label=Download&color=7c6af7)](https://github.com/techsetgrow/fondly-app/releases/latest)
 
 ---
 
 ## Download
 
-**[⬇ Download the latest installer](https://github.com/chiclets1979/fondly-app/releases/latest)**
+**[⬇ Download the latest installer](https://github.com/techsetgrow/fondly-app/releases/latest)**
 
 Double-click `FondlySetup-x.x.x.exe`, click through the wizard, and launch from your desktop shortcut. No Python or technical knowledge needed.
 
@@ -123,7 +123,7 @@ Videos: MP4, MOV, AVI, MKV, M4V, WMV, FLV, 3GP, MTS, M2TS
 
 If Fondly saved you time, a coffee goes a long way.
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-yellow)](https://buymeacoffee.com/sethvishalz)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-yellow)](https://buymeacoffee.com/techsetgrow)
 
 Feature requests and bug reports welcome — open an issue above.
 
