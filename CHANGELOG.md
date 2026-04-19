@@ -4,6 +4,14 @@ All notable changes to Fondly are documented here.
 
 ---
 
+## [v1.0.1] - 2026-04-18
+
+### Fixed
+- Default window width increased so the Support link in the footer is always fully visible
+- App icon updated to use the Fondly logo mark (leaf/lens motif) for consistent branding
+
+---
+
 ## [v1.0.0] - 2026-04-18
 
 ### Added
