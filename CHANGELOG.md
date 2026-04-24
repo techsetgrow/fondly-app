@@ -4,6 +4,18 @@ All notable changes to Fondly are documented here.
 
 ---
 
+## [v1.0.7] - 2026-04-23
+
+### Changed
+- "Consider supporting Fondly" moved to top-right header (visible when closing); "Tell us what you think" moved to bottom button row
+- Window opens 100 px from top, horizontally centred — stays fully on screen when Advanced panel expands
+- Dry Run option removed — Scan Only covers the same need without the technical jargon
+
+### Fixed
+- Scan Only results now use consistent future-tense language ("would be organised", "would go to") instead of past-tense action verbs
+
+---
+
 ## [v1.0.6] - 2026-04-23
 
 ### Added

@@ -50,6 +50,7 @@ After Fondly:
       📁 exact_duplicates/       ← byte-for-byte copies
 📁 2019-12-25 - Home, Chicago
    ...
+📁 _other/                       ← PDFs, documents, and other non-photo files
 ```
 
 Everything in `_review` is yours to keep or delete — Fondly never makes that decision for you.
@@ -65,11 +66,12 @@ Everything in `_review` is yours to keep or delete — Fondly never makes that d
 | **Duplicate removal** | Finds every identical copy — you only keep one |
 | **Blur detection** | Blurry shots separated so you can decide what to delete. Portrait / bokeh shots (sharp subject, blurry background) are not affected. |
 | **Burst shot triage** | Took 12 nearly-identical shots? Keeps the sharpest, sets the rest aside in a named folder so you can see exactly what was chosen and what wasn't |
-| **Nothing deleted** | Everything goes to a `_review` folder — you decide what to remove |
-| **Undo any run** | One click restores everything to exactly where it was |
+| **Nothing deleted** | Everything goes to a `_review` folder or `_other` — you decide what to remove |
+| **Undo any run** | Every run saves a restore point. Click Restore, pick a run from the list, and everything goes back exactly where it was. |
 | **Copy mode** | Organise into a new folder without touching your original hard drive |
 | **Watch folder** | Point it at your phone backup folder — it auto-organises as new photos arrive |
 | **Rename files** | Files renamed to `2024-06-10_001.jpg` so they sort correctly everywhere |
+| **Mixed content handled** | PDFs, documents, and other non-photo files move to `_other/` instead of being silently ignored |
 | **Update notifications** | Fondly quietly checks for a new version on startup and shows a banner when one is available |
 
 ---
@@ -99,7 +101,7 @@ Every setting has a tooltip — just hover over it for a plain-English explanati
 No. Fondly only moves files to the output folder you choose. Nothing in your source folder is ever deleted. The `_review` subfolders hold anything flagged for your attention — you decide what to do with them.
 
 **Can I undo it?**
-Yes. Every run saves a `_manifest.json` file. Click **Restore**, pick that file, and everything goes back exactly where it was.
+Yes. Every run automatically saves a restore point inside your output folder (under `_fondly/`). Click **Restore**, pick a run from the list — it shows the date, file count, and folders — then confirm. Everything moves back exactly where it was.
 
 **What if I just want to try it safely first?**
 Tick **Keep my originals** and click **Scan Only** first. Copy mode leaves your originals completely untouched.
