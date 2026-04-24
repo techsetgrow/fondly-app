@@ -4,6 +4,16 @@ All notable changes to Fondly are documented here.
 
 ---
 
+## [v1.0.6] - 2026-04-23
+
+### Added
+- Feedback link moved to top-right corner of the header — visible on launch without scrolling (#3)
+- Non-media files (PDFs, documents, audio, etc.) now moved to `_other/` instead of silently skipped (#4)
+- Restore: confirmation dialog shows run date, file count, and folders before restoring (#2)
+- Restore: hint line below main buttons explains that every run creates a restore point (#2)
+
+---
+
 ## [v1.0.5] - 2026-04-23
 
 ### Added
