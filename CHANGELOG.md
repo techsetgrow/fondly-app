@@ -4,6 +4,26 @@ All notable changes to Fondly are documented here.
 
 ---
 
+## [v1.1.0] - 2026-04-24
+
+### Added
+- Cancel button — stops a run or scan cleanly after the current file; partial runs are fully undoable via Restore
+- Disk space preflight check — warns before a copy run if the output drive has insufficient free space
+
+### Fixed
+- Runtime crash on launch (`ModuleNotFoundError: No module named 'email'`) — email module now correctly bundled
+- Installer now detects and closes a running Fondly instance before upgrading
+- Perceptual hash (burst/similar) comparison now scoped per event group — eliminates multi-hour hangs on large libraries
+
+### Changed
+- Restore shows a list of all past runs instead of a file picker
+- Timestamped restore points in `_fondly/` — every run independently undoable
+- Restore dialog warns if an older run is selected while newer runs exist
+- Per-file error handling — a single unreadable file no longer aborts the entire run
+- Empty folder cleanup after restore walks the full output tree
+
+---
+
 ## [v1.0.9] - 2026-04-24
 
 ### Fixed
