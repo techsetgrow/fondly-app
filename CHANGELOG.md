@@ -4,6 +4,22 @@ All notable changes to Fondly are documented here.
 
 ---
 
+## [v1.0.9] - 2026-04-24
+
+### Fixed
+- Per-file error handling in organiser — a single unreadable file no longer aborts the entire run
+- Restore crash ("string indices must be integers") when loading enriched restore point JSON
+- Empty folder cleanup after restore now walks the full output tree (not just immediate parents), removing all empty intermediate directories except `_fondly/`
+
+### Changed
+- Restore now shows a list of all past runs (date, file count, source, output) instead of a file picker — no JSON hunting
+- Each run saves a timestamped restore point in `_fondly/` inside your output folder, so multiple runs are all independently undoable
+- Restore dialog warns if you select an older run when newer runs exist (files may have moved since)
+- Restore point JSON enriched with `reason` and `group` fields per file (used by future review pane)
+- Disk space preflight check added — warns before a copy run if the output drive has insufficient free space
+
+---
+
 ## [v1.0.8] - 2026-04-23
 
 ### Changed
