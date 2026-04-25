@@ -4,6 +4,34 @@ All notable changes to Fondly are documented here.
 
 ---
 
+## [v1.2.0] - 2026-04-24
+
+### Fixed — Blur detection (reworked)
+- Portraits, bokeh shots, and smooth-skin subjects no longer flagged as blurry — sharpness is now measured from the sharpest details in the frame (eyes, hair, jewellery, foliage) rather than averaging across smooth skin and blurred backgrounds
+- Old camera photos (2009–2015) no longer unfairly penalised — scoring normalised to a standard resolution so a sharp 8MP shot and a sharp 48MP shot are judged equally
+- Motion-blurred scenes with patterned fabric (saris, embroidered clothing, textiles) now correctly caught — Gaussian pre-smoothing removes fine texture before the sharpness test so only genuine optical focus is measured
+- Default threshold recalibrated to the new metric (slider range 1–50, default 6)
+
+### Fixed — Similar shot grouping
+- Shots from different parts of the day no longer grouped as "similar" — comparison now scoped to 10-minute windows, so ceremony photos are never matched with reception photos
+- `_review/similar_shots/` is now a single flat folder instead of one subfolder per burst group — organising a wedding album no longer creates dozens of review folders
+- Winner copy placed in the flat folder as `IMG_0234_KEPT.jpg` so it sorts alphabetically adjacent to its alternatives
+
+### Fixed — Progress & UI
+- Progress bar now updates smoothly during file copies — previously froze until all copies finished
+- Each phase (Detecting duplicates → Rating sharpness → Grouping shots → Moving files) now runs 0–100% independently with a distinct colour, instead of one bar that stalled at 75%
+- Grouping step now visible in the progress bar — was previously a silent gap after scoring
+- Scan mode shows 3 steps; run mode shows 4 steps
+- ETA display is right-aligned and stable — no longer jumped as phases switched
+- Results window Close button works on every subsequent run (was broken after first close)
+- All UI state fully resets after cancel or error
+
+### Changed
+- Burst shot sensitivity moved from Advanced panel to the main settings card
+- Cancel button moved to bottom-right of the button row
+
+---
+
 ## [v1.1.0] - 2026-04-24
 
 ### Added

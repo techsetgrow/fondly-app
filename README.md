@@ -42,8 +42,7 @@ After Fondly:
    📁 videos/
    📁 _review/
       📁 similar_shots/
-         📁 2019-08-14_001/      ← burst group folder named after the kept shot
-            _KEPT_IMG_4821.jpg   ← copy of the kept shot for easy comparison
+            IMG_4821_KEPT.jpg    ← copy of the kept shot, sorts with its group
             IMG_4822.jpg         ← weaker alternative
             IMG_4823.jpg         ← weaker alternative
       📁 blurry/                 ← out-of-focus photos
@@ -78,7 +77,9 @@ Everything in `_review` is yours to keep or delete — Fondly never makes that d
 
 ## Screenshots
 
-> _Screenshots coming soon_
+![Fondly main window](Fondly%20Main%20Screen.png)
+
+![Scan results](Scan%20Results.png)
 
 ---
 
@@ -110,7 +111,7 @@ Tick **Keep my originals** and click **Scan Only** first. Copy mode leaves your 
 No. Portrait and bokeh shots (sharp subject, blurry background) are not flagged. Fondly's blur detection targets camera-shake blur where the whole frame is soft.
 
 **When burst shots are set aside, how do I know which one was kept?**
-Each burst group gets its own subfolder in `_review/similar_shots/` named after the kept shot. A copy of the kept shot (prefixed `_KEPT_`) is also placed there so you can compare all versions side-by-side without navigating elsewhere.
+The alternatives go to `_review/similar_shots/` (one flat folder). A copy of the kept shot — named `IMG_0234_KEPT.jpg` — sits alongside them so they sort together and you can compare all versions at a glance.
 
 **Does it need the internet?**
 Only for the optional GPS location feature (uses OpenStreetMap — free, no account needed) and for checking whether a new version of Fondly is available. Everything else works fully offline.
