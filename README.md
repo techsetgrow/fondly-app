@@ -77,9 +77,9 @@ Everything in `_review` is yours to keep or delete — Fondly never makes that d
 
 ## Screenshots
 
-![Fondly main window](Fondly%20Main%20Screen.png)
+![Fondly main window](fondly-main-screen.png)
 
-![Scan results](Scan%20Results.png)
+![Scan results](scan-results.png)
 
 ---
 
